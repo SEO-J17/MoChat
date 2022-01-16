@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/qw464/MoChat/app/src/main/res/layout/activity_main.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/qw464/MoChat/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/qw464/MoChat/app/src/main/res/layout/activity_splash.xml" value="0.33541666666666664" />
+        <entry key="..\:/Users/qw464/MoChat/app/src/main/res/layout/fragment_join.xml" value="0.33" />
+        <entry key="..\:/Users/qw464/MoChat/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/Users/qw464/MoChat/app/src/main/res/layout/fragment_profile.xml" value="0.35052083333333334" />
       </map>
     </option>
   </component>

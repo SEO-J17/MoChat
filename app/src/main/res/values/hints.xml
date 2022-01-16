@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="editText_id">ID</string>
+    <string name="editText_password">Password</string>
+<!--    회원가입 힌트-->
+    <string name="join_Alias">사용할 닉네임</string>
+    <string name="join_ID">사용할 아이디</string>
+    <string name="join_password">사용할 비밀번호</string>
+    <string name="chk_password">비밀번호 확인</string>
+    <string name="join_Email">이메일 (필수 X)</string>
+
+
+</resources>
