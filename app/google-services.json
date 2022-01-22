@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "780169969119",
+    "project_id": "mochat-a94aa",
+    "storage_bucket": "mochat-a94aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780169969119:android:cf4cd4f6e328c5763e986a",
+        "android_client_info": {
+          "package_name": "chatapp.seo.mochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780169969119-bg4kgbdt98oq0cu9ol072iijir3lokhr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "chatapp.seo.mochat",
+            "certificate_hash": "561f227c5d13b14a7ab46d6119b4e1598cde4f92"
+          }
+        },
+        {
+          "client_id": "780169969119-ig0s61vhk9nof01pcnn94f8ak1pd6t8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7HDKjEl1x0idCsUnGKCt1IC9eOHpfEok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780169969119-ig0s61vhk9nof01pcnn94f8ak1pd6t8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
