@@ -19,11 +19,7 @@ class LoginFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         loginBinding = FragmentLoginBinding.inflate(layoutInflater)
-        val view = loginBinding.root           //뷰설정
-
-        loginBinding.inputIDET.getT
-        loginBinding.inputPasswordET
-
+        val view = loginBinding.getRoot()            //뷰설정
         return view
     }
 }

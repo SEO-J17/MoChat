@@ -3,51 +3,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginFragment"
-    >
+    app:startDestination="@id/loginFragment">
 
     <fragment
         android:id="@+id/loginFragment"
         android:name="chatapp.seo.mochat.LoginFragment"
-        android:label="LoginFragment"
         tools:layout="@layout/fragment_login"
-        >
+        android:label="LoginFragment" >
         <action
             android:id="@+id/action_loginFragment_to_joinFragment"
             app:destination="@id/joinFragment" />
     </fragment>
     <fragment
-        android:id="@+id/splashFragment"
-        android:name="chatapp.seo.mochat.SplashFragment"
-        android:label="SplashFragment"
-        tools:layout="@layout/fragment_splash"
-        >
-        <action
-            android:id="@+id/action_splashFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
-    </fragment>
-    <fragment
         android:id="@+id/joinFragment"
         android:name="chatapp.seo.mochat.JoinFragment"
-        android:label="JoinFragment"
         tools:layout="@layout/fragment_join"
-        >
+        android:label="JoinFragment" >
         <action
             android:id="@+id/action_joinFragment_to_profileFragment"
             app:destination="@id/profileFragment" />
-        <action
-            android:id="@+id/action_joinFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="chatapp.seo.mochat.ProfileFragment"
-        android:label="ProfileFragment"
         tools:layout="@layout/fragment_profile"
-        >
-        <action
-            android:id="@+id/action_profileFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
-    </fragment>
-
+        android:label="ProfileFragment" />
 </navigation>
