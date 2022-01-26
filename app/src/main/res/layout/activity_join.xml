@@ -29,23 +29,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/joinId_TV"
+        android:id="@+id/joinEmail_TV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="아이디"
-        app:layout_constraintBottom_toTopOf="@+id/joinId_ET"
-        app:layout_constraintEnd_toEndOf="@+id/joinId_ET"
+        android:text="이메일"
+        app:layout_constraintBottom_toTopOf="@+id/joinEmail_ET"
+        app:layout_constraintEnd_toEndOf="@+id/joinEmail_ET"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/joinId_ET" />
+        app:layout_constraintStart_toStartOf="@+id/joinEmail_ET" />
 
     <EditText
-        android:id="@+id/joinId_ET"
+        android:id="@+id/joinEmail_ET"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="@string/join_ID"
+        android:inputType="textEmailAddress"
+        android:hint="@string/join_Email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +72,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/joinId_ET" />
+        app:layout_constraintTop_toBottomOf="@+id/joinEmail_ET" />
 
     <TextView
         android:id="@+id/chkPW_TV"
@@ -98,7 +98,7 @@
         app:layout_constraintTop_toBottomOf="@+id/joinPW_ET" />
 
     <TextView
-        android:id="@+id/joinEmail_TV"
+        android:id="@+id/joinSex_TV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="성별"
@@ -143,17 +143,17 @@
         app:layout_constraintVertical_bias="0.0">
 
         <RadioButton
-            android:id="@+id/mail_radiobtn"
+            android:id="@+id/male_radio_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="30dp"
-            android:text="남자" />
+            android:text="남성" />
 
         <RadioButton
-            android:id="@+id/femail_radiobtn"
+            android:id="@+id/female_radio_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="여자" />
+            android:text="여성" />
     </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
